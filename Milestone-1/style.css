@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eaddcf;
+}
+
+.resume{
+    height: auto;
+    width: 40.28vw;
+    background-color: #f9f4ef;
+    margin: auto;
+    margin-top: 3vw;
+    border-radius: 20px;
+    box-shadow:  10px 10px 5px 0px rgba(0, 0, 0, 0.40);
+    margin-bottom: 3vw;
+
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+img{
+    width: 10vw;
+    border-radius: 50%;
+    margin-right: 3.5vw ;
+}
+
+h1{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #716040;
+   font-size: 3.2vw;
+   padding-left: 2vw;
+}
+
+.personal-info{
+    margin-left: 30px;
+}
+
+.personal-info p{
+    padding-top: 6px;
+}
+
+.section-heading{
+    background-color: #8c7851;
+    width: 90%;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #fffffe;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1vw;   
+}
+
+p{
+    margin-top: 10px;
+    font-size: 1.2vw ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.education-section{
+    margin-top: 29.20px;
+    margin-left: 30px;
+}
+
+.skills-section{
+    margin-top: 29.20px;
+    margin-left: 30px;
+}
+
+ul{
+    margin-top: 10px;
+    list-style-type: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    font-size: 1.5vw;
+    background-color: #8c7851;
+    color: white;
+    border: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.skills-section .section-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-section{
+    margin-top: 29.20px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+
+/* media querey for mobile */
+
+@media (max-width:800px){
+
+    .resume{
+        height: auto;
+        width: 85vw;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+    }
+
+    .profile-photo{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 1.5vw;
+    }
+
+    img{
+        width: 30vw;
+        margin-right: 0;
+    }
+
+    h1{
+        font-size: 7vw;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .section-heading{
+        height: 7.6vw;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding-left: 17px;
+        font-size: 3.2vw;
+    }
+
+    p{
+        font-size: 3.3vw;
+        margin-top: 6.5px ;
+    }
+
+    button{
+        font-size: 4.5vw;
+        margin-right: 5.5vw;
+    }
+    
+    .education-section , .skills-section , .work-section{
+        margin-top: 3.5vw;
+    }
+
+    .education-section p, .skills-section p , .work-section p{
+        margin-top: 2.5vw;
+    }
+
+    ul{
+        margin-top: 2.5vw ;
+        font-size: 3.3vw;
+    }
+
+}
+
+/* media querey for tablet */
+
+@media (min-width:801px) and (max-width:1024px){
+
+    .resume{
+        height: auto;
+        width: 70vw;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .profile-photo{
+        padding-top: 4.5vw;
+        padding-bottom: 4.5vw;
+    }
+
+    img{
+        width: 19vw;
+        margin-right: 6vw;
+    }
+
+    h1{
+        font-size: 5.3vw;
+        padding-left: 4vw;
+    }
+
+    .section-heading{
+        height: 52px;
+        padding-left: 17px;
+        font-size: 1.9vw;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    p{
+        margin-top: 14px;
+        font-size: 2.2vw;
+    }
+
+    button{
+        font-size: 2.5vw;
+    }
+
+    ul{
+        font-size: 2.2vw;
+    }
+}
